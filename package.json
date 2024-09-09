@@ -28,6 +28,6 @@
     "typescript": "5.4.5"
   },
   "devDependencies": {
-    "@types/react-vertical-timeline-component": "^3.3.6"
+    "@types/react-vertical-timeline-component": "^3.3.5"
   }
 }
