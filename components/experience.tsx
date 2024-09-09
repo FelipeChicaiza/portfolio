@@ -7,9 +7,9 @@ import { experiencesData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';
 
 export default function experience() {
-  const { ref } = useSectionInView('Projects', 0.5);
+  const { ref } = useSectionInView('Experience');
   return (
-    <section id="experience" ref={ref}>
+    <section id="experience" className='scroll-mt-28 mb-28 sm:mb-40' ref={ref}>
         <SectionHeading>My experience</SectionHeading>
         <VerticalTimeline lineColor=''>{
             experiencesData.map((item,index) => (
