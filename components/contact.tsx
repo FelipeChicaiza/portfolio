@@ -32,7 +32,7 @@ export default function Contact() {
              <a className='underline' href='mailto: felipechicaiza47@gmail.com'>
               felipechicaiza47@gmail.com
               </a> {" "} 
-             or thorugh this form.
+             or through this form.
         </p>
 
         <form 
