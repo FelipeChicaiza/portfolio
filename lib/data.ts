@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import NyxianVeilImg from "@/public/Nyxian_Veil.jpg";
 import RestfulAPIImg from "@/public/RestfulAPI.png";
-import tlqpsmImg from "@/public/tlqpsm.png";
+import tlqpsmImg from "@/public/TLQPSM.png";
 
 export const links = [
   {
