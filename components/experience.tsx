@@ -1,4 +1,5 @@
 "use client";
+
 import React from 'react'
 import SectionHeading from './section-heading'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
@@ -33,7 +34,9 @@ export default function experience() {
                 >
                   <h3 className='font-semibold capitalize'>{item.title}</h3>
                   <p className='font-normal !mt-0'>{item.location}</p>
-                  <p className='!mt-1 !font-normal text-gray-700'>{item.description}</p>
+                  <p className='!mt-1 !font-normal text-gray-700'>
+                    {item.description}
+                  </p>
                 </VerticalTimelineElement>
             </React.Fragment> 
             ))}
