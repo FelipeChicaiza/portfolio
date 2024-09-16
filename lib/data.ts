@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import NyxianVeilImg from "@/public/Nyxian_Veil.jpg";
+import RestfulAPIImg from "@/public/RestfulAPI.png";
+import tlqpsmImg from "@/public/tlqpsm.png";
 
 export const links = [
   {
@@ -35,58 +35,60 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated Miami Dade College",
+    title: "Graduated Miami Dade College | AA in Computer Science",
     location: "Miami, FL",
     description:
-      "I graduated after 6 months of studying",
+      "I graduated after 2 years of studying, developing foundational skills in programming and computer science.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
-    title: "Currently studying Computer Science",
+    title: "Currently studying a Bachelors in Arts in Computer Science | FIU",
     location: "Miami, FL",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Currently pursuing a Bachelor of Arts in Computer Science with a minor in Engineering Mathematics at Florida International University",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - 2025",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "INIT BUILD Leader - Sound Systems Project",
+    location: "Miami, FL",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Leading the INIT BUILD team in the Sound Systems project at Florida International University, focusing on the design and implementation of sound and audio technologies. Overseeing project development and coordinating team efforts to create innovative solutions.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Restful API Bookstore",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I collaborated with a team to develop a RESTful API for an Online Bookstore, using MySQL for efficient data management and Java for backend development. ",
+    tags: ["Java", "Postman", "MYSQL", "Springboot"],
+    imageUrl: RestfulAPIImg,
   },
   {
-    title: "rmtDev",
+    title: "Nyxian Veil",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "I led a team of 5 in the INIT Build Program, overseeing the creation of key visual elements for the sound and visual teams in the Nyxian Veil game project using Unity.",
+    tags: ["C#", "ShaderLab", "HTML", "HLSL", "Unity"],
+    imageUrl: NyxianVeilImg,
   },
   {
-    title: "Word Analytics",
+    title: "Multiband Compressor",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "I developed a Multiband Compressor using JUCE in C++, focusing on audio consistency for platforms like Ableton Live and FL Studio",
+    tags: ["JUCE", "C++", ".NET", "Visual Studio"],
+    imageUrl: tlqpsmImg,
   },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "C++",
+  "C",
   "JavaScript",
   "TypeScript",
   "React",
@@ -94,14 +96,14 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "MySQL",
+  "JUCE",
+  "Agile",
   "PostgreSQL",
   "Python",
-  "Django",
+  "Springboot",
+  "Postman",
   "Framer Motion",
+  
 ] as const;
