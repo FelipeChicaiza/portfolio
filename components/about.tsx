@@ -18,30 +18,29 @@ export default function About() {
     >
 
       <SectionHeading>About Me</SectionHeading>
-        <p className='mb-3'>
-          After graduating with a degree AA in{" "}
-          <span className="font-medium">Computer Science</span>, I decided to pursue my
-          passion for programming. I continued my studies at Florida International University and learned{" "}
-          <span className="font-medium">full-stack web development</span>.{" "}
-          <span className="italic">My favorite part of programming</span> is the
-          problem-solving aspect. I <span className="underline">love</span> the
-          feeling of finally figuring out a solution to a problem. My core stack
-          is{" "}
-          <span className="font-medium">
-            React, Next.js, Node.js, and Im currently learning MongoDB
-          </span>
-          . I am also familiar with TypeScript. I am always looking to
-          learn new technologies. I am currently looking for a{" "}
-          <span className="font-medium">Internship</span> as a software
-          developer.
+        <p className="mb-3">
+          I&apos;m currently pursuing a{" "}
+          <span className="font-medium">Bachelor of Arts in Computer Science</span> with a{" "}
+          <span className="font-medium">Minor in Engineering Mathematics</span> at Florida International University, 
+          where I&apos;ve maintained a <span className="font-medium">3.7 GPA</span> and earned 
+          <span className="font-medium"> Dean&apos;s List honors</span>. Over the past year, I&apos;ve gained 
+          hands-on experience in both{" "}
+          <span className="font-medium">full-stack web development</span> and{" "}
+          <span className="font-medium">software engineering</span>, with a focus on building real-world applications 
+          through <span className="font-medium">React, Next.js, Node.js, MySQL, and C++ (JUCE)</span>.  
+          <span className="italic">What excites me most about programming</span> is tackling challenging 
+          problems and finding elegant solutions that make a real impact. I&apos;m also expanding my skills by learning{" "}
+          <span className="font-medium">TypeScript and MongoDB</span>. Currently, I&apos;m seeking a{" "}
+          <span className="font-medium">software development internship</span> where I can continue to grow, 
+          collaborate, and contribute.
         </p>
+
         <p>
-          <span className="italic">When I&apos;m not coding</span>, I enjoy playing
-          video games, watching movies, and playing with my dog. I also enjoy{" "}
-          <span className="font-medium">learning new things</span>. I am currently
-          learning about{" "}
-          <span className="font-medium">music theory and video editing</span>. I&apos;m also
-          learning how to play the guitar.
+          <span className="italic">Beyond coding</span>, I enjoy blending creativity and technology. I&apos;m passionate 
+          about <span className="font-medium">music production</span>I&apos;ve built audio plugins with C++ and the 
+          JUCE framework, and I love diving into <span className="font-medium">music theory and sound design</span>. 
+          Outside of tech and music, you can usually find me playing video games, watching films, or learning something new 
+          (currently teaching myself guitar 🎸).
         </p>
     </motion.section>
   )
