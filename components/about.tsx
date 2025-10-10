@@ -19,28 +19,16 @@ export default function About() {
 
       <SectionHeading>About Me</SectionHeading>
         <p className="mb-3">
-          I&apos;m currently pursuing a{" "}
-          <span className="font-medium">Bachelor of Arts in Computer Science</span> with a{" "}
-          <span className="font-medium">Minor in Engineering Mathematics</span> at Florida International University, 
-          where I&apos;ve maintained a <span className="font-medium">3.7 GPA</span> and earned 
-          <span className="font-medium"> Dean&apos;s List honors</span>. Over the past year, I&apos;ve gained 
-          hands-on experience in both{" "}
+          I&apos;m a Computer Science student at Florida International University with a passion for building scalable and efficient software. I have experience in both {" "}
           <span className="font-medium">full-stack web development</span> and{" "}
           <span className="font-medium">software engineering</span>, with a focus on building real-world applications 
-          through <span className="font-medium">React, Next.js, Node.js, MySQL, and C++ (JUCE)</span>.  
-          <span className="italic">What excites me most about programming</span> is tackling challenging 
-          problems and finding elegant solutions that make a real impact. I&apos;m also expanding my skills by learning{" "}
-          <span className="font-medium">TypeScript and MongoDB</span>. Currently, I&apos;m seeking a{" "}
-          <span className="font-medium">software development internship</span> where I can continue to grow, 
-          collaborate, and contribute.
+          through <span className="font-medium">React, Next.js, Node.js, MySQL, Go, and C++ (JUCE)</span>.  
+          <span className="italic">What excites me most about programming</span> is the challenge of solving complex problems (often a lot more challenging than I think) and building systems that are both robust and user-friendly. I am always looking to expand my skillset and am currently seeking a {" "}
+          <span className="font-medium">Software Development New Grad Role</span> where I can contribute to a team and continue to grow as an engineer.
         </p>
 
         <p>
-          <span className="italic">Beyond coding</span>, I enjoy blending creativity and technology. I&apos;m passionate 
-          about <span className="font-medium">music production</span>I&apos;ve built audio plugins with C++ and the 
-          JUCE framework, and I love diving into <span className="font-medium">music theory and sound design</span>. 
-          Outside of tech and music, you can usually find me playing video games, watching films, or learning something new 
-          (currently teaching myself guitar 🎸).
+          <span className="italic">Beyond coding</span>, I enjoy exploring the intersection of technology and creativity. I am passionate about music production and have experience building audio plugins with C++ and the JUCE framework. I also enjoy learning about music theory and sound design.
         </p>
     </motion.section>
   )
