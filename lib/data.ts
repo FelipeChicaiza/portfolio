@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import NyxianVeilImg from "@/public/Nyxian_Veil.jpg";
 import RestfulAPIImg from "@/public/RestfulAPI.png";
 import tlqpsmImg from "@/public/TLQPSM.png";
+import DecentralizedFileStorageImg from "@/public/DecentralizedFileStorageImg.png";
+import GlobalNewsNetworkImg from "@/public/GlobalNewsNetworkImg.png";
 
 export const links = [
   {
@@ -35,38 +37,45 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated Miami Dade College | AA in Computer Science",
+    title: "IT & Network System Intern | Florida Department of Transportation",
     location: "Miami, FL",
     description:
-      "I graduated after 2 years of studying, developing foundational skills in programming and computer science.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022",
-  },
-  {
-    title: "Currently studying a Bachelors in Arts in Computer Science | FIU",
-    location: "Miami, FL",
-    description:
-      "Currently pursuing a Bachelor of Arts in Computer Science with a minor in Engineering Mathematics at Florida International University",
+      "Managed over 250 workstations district-wide, handling configuration, imaging, and technical support; utilized Active Directory for account management and ServiceNow for ticketing and resolution. Developed and maintained district wide web applications, including GIS mapping tools, Microsoft Power Apps project management lists, and the Financial Services web platform, supporting operational needs across planning, HR, and finance departments.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2025",
+    date: "May 2025 - Current",
   },
   {
-    title: "INIT BUILD Leader - Sound Systems Project",
+    title: "Codepath Fellow",
+    location: "Remote",
+    description:
+      "Mentored 150+ students through 1:1 and group sessions, delivering resume reviews and interview prep that improved candidate competitiveness in Python. Guided a cohort of students through Object Oriented Programming and data structures in Python, breaking down complex concepts into clear explanations that improved student confidence and technical readiness.",
+    icon: React.createElement(FaReact),
+    date: "December 2024 - Current",
+  },
+  {
+    title: "Project Manager & Lead Engineer | INIT Build - Florida International University",
     location: "Miami, FL",
     description:
-      "Leading the INIT BUILD team in the Sound Systems project at Florida International University, focusing on the design and implementation of sound and audio technologies. Overseeing project development and coordinating team efforts to create innovative solutions.",
-    icon: React.createElement(FaReact),
-    date: "2024 - Present",
+      "Architected and developed a C++ audio plugin using the JUCE framework, applying object-oriented design and real-time programming principles to ensure stable low-latency performance. Optimized CPU usage and memory allocation by leveraging RAII patterns, efficient buffer management, and multithreading techniques, ensuring glitch-free playback under stress tests.",
+    icon: React.createElement(LuGraduationCap),
+    date: "September - Nov 2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Restful API Bookstore",
+    title: "Decentralized File Storage System",
     description:
-      "I collaborated with a team to develop a RESTful API for an Online Bookstore, using MySQL for efficient data management and Java for backend development. ",
-    tags: ["Java", "Postman", "MYSQL", "Springboot"],
-    imageUrl: RestfulAPIImg,
+      "Designed and implemented a peer-to-peer distributed file storage system in Go, supporting file upload, retrieval, and removal across multiple networked nodes.",
+    tags: ["Go", "TCP", "P2P Networking", "Encryption"],
+    imageUrl: DecentralizedFileStorageImg,
+  },
+  {
+    title: "Global News Network",
+    description:
+      "Designed and implemented a 3D interactive news platform where users explore stories on a globe, view local feeds with credibility scores, and read Al-generated summaries.",
+    tags: ["React", "Three.js", "Tailwind", "Express.js", "MongoDB"],
+    imageUrl: GlobalNewsNetworkImg,
   },
   {
     title: "Nyxian Veil",
@@ -75,35 +84,31 @@ export const projectsData = [
     tags: ["C#", "ShaderLab", "HTML", "HLSL", "Unity"],
     imageUrl: NyxianVeilImg,
   },
-  {
-    title: "Multiband Compressor",
-    description:
-      "I developed a Multiband Compressor using JUCE in C++, focusing on audio consistency for platforms like Ableton Live and FL Studio",
-    tags: ["JUCE", "C++", ".NET", "Visual Studio"],
-    imageUrl: tlqpsmImg,
-  },
 ] as const;
 
 export const skillsData = [
+  "Python",
+  "Java",
+  "C++",
+  "Go",
+  "C",
+  "TypeScript",
+  "JavaScript",
+  "SQL",
   "HTML",
   "CSS",
-  "C++",
-  "C",
-  "JavaScript",
-  "TypeScript",
+  "Node.js",
   "React",
   "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "MongoDB",
+  "Spring Boot",
   "MySQL",
-  "JUCE",
+  "MongoDB",
+  "SQL",
+  "Git",
   "Agile",
-  "PostgreSQL",
-  "Python",
-  "Springboot",
   "Postman",
-  "Framer Motion",
+  "JUCE",
+  "Ocelot",
+  "Cyberduck",
   
 ] as const;
